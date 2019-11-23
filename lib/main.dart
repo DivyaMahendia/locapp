@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:location/location.dart';
 import 'package:flutter/services.dart';
 
-void main() => runApp(new MyApp());
+void main() => runApp(new YourApp());
 
-class MyApp extends StatefulWidget {
+class YourApp extends StatefulWidget {
    @override
    State<StatefulWidget> createState() => MyAppState();
 }
 
-class MyAppState extends State<MyApp> {
+class MyAppState extends State<YourApp> {
   Map<String,double> currentLocation = new Map();
   StreamSubscription<Map<String,double>> locationSubscription;
 
